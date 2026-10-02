@@ -1,0 +1,73 @@
+
+<Profiles>
+  <KeyboardProfile Version="3" Id="133e9bcf-68ff-4c5e-a1cc-8b1f86b4132b" UserFacingName="IDS_CustomKeyboardProfile_1" IsDefaultProfile="0">
+    <Context Context="INPUTCONTEXT_HIDE_SEEK">
+      <ButtonInput Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" IsPrimary="1" MouseButton="0" Key="82" KeyFlags="0" IsAnOnEvent="0"/>
+    </Context>
+  </KeyboardProfile>
+  <KeyboardProfile Version="3" Id="64cee482-e052-49f6-92d7-2cbd573661cc" UserFacingName="IDS_CustomKeyboardProfile_2" IsDefaultProfile="0">
+    <Context Context="INPUTCONTEXT_HIDE_SEEK">
+      <ButtonInput Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" IsPrimary="1" MouseButton="0" Key="82" KeyFlags="0" IsAnOnEvent="0"/>
+    </Context>
+  </KeyboardProfile>
+  <KeyboardProfile Version="3" Id="d190f9e6-8afc-41ae-9d40-a4fe57bd02f2" UserFacingName="IDS_CustomKeyboardProfile_3" IsDefaultProfile="0">
+    <Context Context="INPUTCONTEXT_HIDE_SEEK">
+      <ButtonInput Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" IsPrimary="1" MouseButton="0" Key="82" KeyFlags="0" IsAnOnEvent="0"/>
+    </Context>
+  </KeyboardProfile>
+  <KeyboardProfile Version="3" Id="9371616b-1a64-4fa7-9784-199a4a9d6f26" UserFacingName="IDS_CustomKeyboardProfile_4" IsDefaultProfile="0">
+    <Context Context="INPUTCONTEXT_HIDE_SEEK">
+      <ButtonInput Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" IsPrimary="1" MouseButton="0" Key="82" KeyFlags="0" IsAnOnEvent="0"/>
+    </Context>
+  </KeyboardProfile>
+  <KeyboardProfile Version="3" Id="bb418c6b-b825-4b98-b5b7-cdf8ba3ece95" UserFacingName="IDS_CustomKeyboardProfile_5" IsDefaultProfile="0">
+    <Context Context="INPUTCONTEXT_HIDE_SEEK">
+      <ButtonInput Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" IsPrimary="1" MouseButton="0" Key="82" KeyFlags="0" IsAnOnEvent="0"/>
+    </Context>
+  </KeyboardProfile>
+  <ControllerProfile Version="3" Id="dd1490a2-1e85-44e5-aba6-b5701db85491" UserFacingName="IDS_CustomControllerProfile_1" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+  <ControllerProfile Version="3" Id="57c01b74-e9d5-488a-b43e-804fe8352c37" UserFacingName="IDS_CustomControllerProfile_2" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+  <ControllerProfile Version="3" Id="c29241f7-25d0-4f8d-823f-0af68bfaf2f3" UserFacingName="IDS_CustomControllerProfile_3" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+  <ControllerProfile Version="3" Id="3998bc35-160a-4669-bc08-2408e44d5b91" UserFacingName="IDS_CustomControllerProfile_4" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+  <ControllerProfile Version="3" Id="b410b27b-b872-4e37-8d12-c635a74da890" UserFacingName="IDS_CustomControllerProfile_5" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+  <WheelProfile Version="3" Id="09238fb1-4c7c-4538-8481-a426b2021fff" UserFacingName="IDS_CustomWheelProfile_1" IsDefaultProfile="0" WheelVidPid="1">
+    <Layout/>
+  </WheelProfile>
+  <WheelProfile Version="3" Id="7257b301-d012-4e01-b52c-ada1026ef3d1" UserFacingName="IDS_CustomWheelProfile_2" IsDefaultProfile="0" WheelVidPid="1">
+    <Layout/>
+  </WheelProfile>
+  <WheelProfile Version="3" Id="ab03ddb3-b221-406c-b08b-ea7865e34e13" UserFacingName="IDS_CustomWheelProfile_3" IsDefaultProfile="0" WheelVidPid="1">
+    <Layout/>
+  </WheelProfile>
+  <WheelProfile Version="3" Id="41b1746d-9a87-41ba-b230-4f54e52f2b29" UserFacingName="IDS_CustomWheelProfile_4" IsDefaultProfile="0" WheelVidPid="1">
+    <Layout/>
+  </WheelProfile>
+  <WheelProfile Version="3" Id="0aa37955-978c-4b11-a05b-19bdeb955400" UserFacingName="IDS_CustomWheelProfile_5" IsDefaultProfile="0" WheelVidPid="1">
+    <Layout/>
+  </WheelProfile>
+  <RawGameControllerInputMappingProfile Version="3" Id="9600c3da-05af-4c08-9f55-8d920f181470" UserFacingName="IDS_CustomWheelProfile_1" IsDefaultProfile="0" PrimaryDeviceVidPid="1" FFBDeviceVidPid="1" FFBMotorIndex="0" WheelVidPid="1">
+    <Layout/>
+  </RawGameControllerInputMappingProfile>
+  <RawGameControllerInputMappingProfile Version="3" Id="afc8cefb-3aeb-4f34-90c4-5287d93d7547" UserFacingName="IDS_CustomWheelProfile_2" IsDefaultProfile="0" PrimaryDeviceVidPid="1" FFBDeviceVidPid="1" FFBMotorIndex="0" WheelVidPid="1">
+    <Layout/>
+  </RawGameControllerInputMappingProfile>
+  <RawGameControllerInputMappingProfile Version="3" Id="e5919b9d-8341-4b57-ad42-bd700ad1ad87" UserFacingName="IDS_CustomWheelProfile_3" IsDefaultProfile="0" PrimaryDeviceVidPid="1" FFBDeviceVidPid="1" FFBMotorIndex="0" WheelVidPid="1">
+    <Layout/>
+  </RawGameControllerInputMappingProfile>
+  <RawGameControllerInputMappingProfile Version="3" Id="447ce9a1-6712-4cbd-8ddb-ecad670496c5" UserFacingName="IDS_CustomWheelProfile_4" IsDefaultProfile="0" PrimaryDeviceVidPid="1" FFBDeviceVidPid="1" FFBMotorIndex="0" WheelVidPid="1">
+    <Layout/>
+  </RawGameControllerInputMappingProfile>
+  <RawGameControllerInputMappingProfile Version="3" Id="712288e1-e7d4-4d47-be62-4af0e575ac97" UserFacingName="IDS_CustomWheelProfile_5" IsDefaultProfile="0" PrimaryDeviceVidPid="1" FFBDeviceVidPid="1" FFBMotorIndex="0" WheelVidPid="1">
+    <Layout/>
+  </RawGameControllerInputMappingProfile>
+</Profiles>

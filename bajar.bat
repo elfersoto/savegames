@@ -1,5 +1,5 @@
 @echo off
-rem Descarga el remoto y SOBRESCRIBE los archivos rastreados (los cambios locales en ellos se pierden). No borra archivos nuevos sin rastrear.
+rem Descarga el remoto y SOBRESCRIBE TODO lo rastreado en esta carpeta (los cambios locales en esos archivos se pierden). No borra archivos nuevos sin rastrear.
 cd /d "%~dp0"
 git fetch origin main
 if errorlevel 1 (
