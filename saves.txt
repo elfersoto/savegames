@@ -1,0 +1,6 @@
+# Lista de savegames a sincronizar. Formato:  CARPETA_EN_REPO|RUTA_LOCAL
+# - CARPETA_EN_REPO: ruta relativa dentro del repo.
+# - RUTA_LOCAL: carpeta real donde el juego guarda (admite %LOCALAPPDATA%, %USERPROFILE%, etc.).
+# Solo se sincronizan los archivos *.sav. Una linea por juego; las que empiezan con # se ignoran.
+GearsOfWarEDay\Saves|%LOCALAPPDATA%\Microsoft\Gears of War E-Day\Saves
+EndOfAbyss\SaveGames|%LOCALAPPDATA%\EndOfAbyss\Saved\SaveGames
