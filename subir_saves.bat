@@ -37,14 +37,21 @@ if %errorlevel%==0 (
     )
 )
 
-git pull --rebase --autostash origin main
-if errorlevel 1 (
-    echo ERROR al integrar cambios del remoto. Resuelve el conflicto o ejecuta: git rebase --abort
-    exit /b 1
-)
+rem Primero se intenta subir directamente (una sola conexion, una sola passphrase).
+rem Solo si el remoto tiene cambios nuevos se integra con pull --rebase y se reintenta.
 git push origin main
 if errorlevel 1 (
-    echo ERROR al subir.
-    exit /b 1
+    echo.
+    echo El remoto tiene cambios nuevos, integrando...
+    git pull --rebase --autostash origin main
+    if errorlevel 1 (
+        echo ERROR al integrar cambios del remoto. Resuelve el conflicto o ejecuta: git rebase --abort
+        exit /b 1
+    )
+    git push origin main
+    if errorlevel 1 (
+        echo ERROR al subir.
+        exit /b 1
+    )
 )
 echo Listo. Savegames subidos.
