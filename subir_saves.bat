@@ -1,8 +1,11 @@
 @echo off
-rem Sube a GitHub los savegames (*.sav) de todos los juegos listados en saves.txt.
+rem Sube a GitHub TODOS los savegames:
+rem   1) Los juegos que guardan fuera del repo (AppData) listados en saves.txt, copiandolos antes al repo.
+rem   2) Las carpetas de emuladores que ya viven dentro del repo (Steam, Epic, EMPRESS, uPlay, ...).
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
 set "PATHS="
+set "REPODIRS=Steam Epic EMPRESS uPlay Socialclub MicrosoftStore"
 
 for /f "usebackq eol=# tokens=1,* delims=|" %%A in ("saves.txt") do (
     call set "LOCALDIR=%%B"
@@ -19,12 +22,16 @@ for /f "usebackq eol=# tokens=1,* delims=|" %%A in ("saves.txt") do (
     )
 )
 
+for %%G in (%REPODIRS%) do (
+    if exist "%~dp0%%G" set "PATHS=!PATHS! "%%G""
+)
+
 if not defined PATHS (
     echo No hay ninguna carpeta de saves que subir.
     exit /b 1
 )
 
-git add -- !PATHS!
+git add -A -- !PATHS!
 git diff --cached --quiet -- !PATHS!
 if %errorlevel%==0 (
     echo No hay cambios en los savegames.

@@ -1,6 +1,7 @@
 @echo off
 rem Baja de GitHub los savegames (*.sav) de todos los juegos listados en saves.txt y los copia a su carpeta local.
 rem Antes de sobrescribir, guarda una copia de los saves locales en %LOCALAPPDATA%\SavesBackup\<fecha>\<juego>.
+rem Las carpetas de emuladores dentro del repo (Steam, Epic, EMPRESS, uPlay, ...) ya se actualizan con el git pull.
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
