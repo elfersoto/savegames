@@ -1,0 +1,3 @@
+﻿Battlefield™ 6
+AppID: 2807960
+Fuente: Steam Store

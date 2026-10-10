@@ -1,0 +1,3 @@
+﻿NieR:Automata™
+AppID: 524220
+Fuente: Steam Store

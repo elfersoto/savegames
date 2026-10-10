@@ -1,0 +1,3 @@
+﻿Kunitsu-Gami: Path of the Goddess
+AppID: 2510710
+Fuente: Steam Store

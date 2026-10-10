@@ -1,0 +1,3 @@
+﻿CYGNI: All Guns Blazing
+AppID: 1248080
+Fuente: Steam Store

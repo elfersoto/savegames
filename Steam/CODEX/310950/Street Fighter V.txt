@@ -1,0 +1,3 @@
+﻿Street Fighter V
+AppID: 310950
+Fuente: Steam Store

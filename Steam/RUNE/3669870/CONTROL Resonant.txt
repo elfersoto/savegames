@@ -1,0 +1,3 @@
+﻿CONTROL Resonant
+AppID: 3669870
+Fuente: Steam Store

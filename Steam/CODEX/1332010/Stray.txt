@@ -1,0 +1,3 @@
+﻿Stray
+AppID: 1332010
+Fuente: Steam Store
